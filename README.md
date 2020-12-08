@@ -1,19 +1,18 @@
 # HexQT 
 -------------
-A QT (Pronounced Cute) Hex Editor written using the Python binding of QT5! 
-
-![](https://i.imgur.com/1B6KKaG.png)
+A PyQT5 Hex Editor 
 
 # Features
 --------------
 * View a files side-by-side hexi and ascii representation [complete 100%]
 * Saving dump output to a file. [in-progress 0%]
-* Edit hex files with live updating ascii [in-progress 10%]
+* Edit hex files with live updating ascii [in-progress 0%]
     - Implementing addition and override mode.
-* Bidirectional Highlighting [in-progress 95%]
+* Bidirectional Highlighting [in-progress 55%]
     - Parse ascii or hexedecimal selection and highlight on appropriate window.
+    - Fix hex parsing
 * Offset Jumping [in-progress 0%]
-    - Jump to a set set of hex using a predefined hexe(decimal) offset.
+    - Jump to a set set of hex using a predefined hex(decimal) offset.
 
 # Requirements
 ----------------
@@ -22,9 +21,9 @@ A QT (Pronounced Cute) Hex Editor written using the Python binding of QT5!
 
 # Installation
 -----------------
-`$ git clone https://github.com/queercat/HexQT/`  
+`$ git clone https://github.com/Aleks0010V/HexQT/`  
 `$ cd HexQT`  
-`$ pip install PyQt5`  
+`$ pip install -r requirements.txt`  
 
 # Running
 -----------------

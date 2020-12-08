@@ -207,7 +207,7 @@ class App(QMainWindow):
         self.offsetTextArea.setReadOnly(True)
 
         # Create the fonts and styles to be used and then apply them.
-        font = QFont("Courier New", 12, QFont.Normal, True)
+        font = QFont("Courier New", 12, QFont.Normal, False)
 
         self.mainTextArea.setFont(font)
         self.asciiTextArea.setFont(font)

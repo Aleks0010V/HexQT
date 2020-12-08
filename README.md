@@ -4,12 +4,12 @@ A PyQT5 Hex Editor
 
 # Features
 --------------
-* View a files side-by-side hexi and ascii representation [complete 100%]
+* View a files side-by-side hex and ascii representation [complete 100%]
 * Saving dump output to a file. [in-progress 0%]
 * Edit hex files with live updating ascii [in-progress 0%]
     - Implementing addition and override mode.
 * Bidirectional Highlighting [in-progress 55%]
-    - Parse ascii or hexedecimal selection and highlight on appropriate window.
+    - Parse ascii or hexadecimal selection and highlight on appropriate window.
     - Fix hex parsing
 * Offset Jumping [in-progress 0%]
     - Jump to a set set of hex using a predefined hex(decimal) offset.

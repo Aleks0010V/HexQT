@@ -97,22 +97,21 @@ class App(QMainWindow):
         mainText = ''
         asciiText = ''
 
-        for chars in range(1, len(text) + 1):
-            byte = text[chars - 1]
-            char = chr(text[chars - 1])
+        for index, b in enumerate(text):
+            char = chr(b)
 
             if char in (' ', '', '\n', '\t', '\r', '\b'):
                 asciiText += '.'
             else:
                 asciiText += char
 
-            mainText += format(byte, '0' + str(self.byteWidth) + 'x')
+            mainText += format(b, '0' + str(self.byteWidth) + 'x')
 
-            if chars % rowLength == 0:
+            if (index + 1) % rowLength == 0:
                 offsetText += format(offset, '04x') + '\n'
                 mainText += '\n'
                 asciiText += '\n'
-            elif chars % rowSpacing == 0:
+            elif (index + 1) % rowSpacing == 0:
                 mainText += space * 2
             else:
                 mainText += space

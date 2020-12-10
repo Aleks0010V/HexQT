@@ -6,6 +6,7 @@
 
 * Bidirectional Highlighting
     - Something wrong with highlighting parsing.
+    There are a few bugs with both ascii and hex highlighting - sometimes it highlights one byte more or one byte less.
 
 * Large File Support
     - Buffered chunking? [Break the file into parts and load them into memory.]

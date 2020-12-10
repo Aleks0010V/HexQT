@@ -8,11 +8,11 @@ A PyQT5 Hex Editor
 * Saving dump output to a file. [in-progress 0%]
 * Edit hex files with live updating ascii [in-progress 0%]
     - Implementing addition and override mode.
-* Bidirectional Highlighting [in-progress 55%]
-    - Parse ascii or hexadecimal selection and highlight on appropriate window.
+* Bidirectional Highlighting [in-progress 75%]
+    - Fix ascii parsing
     - Fix hex parsing
 * Offset Jumping [in-progress 0%]
-    - Jump to a set set of hex using a predefined hex(decimal) offset.
+    - Jump to a set of hex using a predefined hex(decimal) offset.
 
 # Requirements
 ----------------
